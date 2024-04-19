@@ -134,7 +134,7 @@ EXEC sys.sp_addextendedproperty
     @value = N'Tabela z premią';
 
 EXEC sys.sp_addextendedproperty 
-    @name = N'Wynagrodzenie', 
+    @name = N'Wynagrodzenia', 
     @value = N'Tabela z wynagrodzeniem';
 
 -- a)
