@@ -1,0 +1,25 @@
+Zad 1
+id_produktu → nazwa_produktu, cena_produktu, VAT
+nazwa_produktu → id_prodktu, cena_produktu, VAT
+id_klienta → nazwa_klienta
+nazwa_klienta → id_klienta
+data_zamowienia → ilość, suma_brutto, suma_netto, id_klienta, nazwa_klienta
+cena_produktu → nazwa_produktu, id_produktu
+VAT → nazwa_produktu
+suma_brutto → suma_netto, VAT
+suma_netto → suma_brutto, VAT
+
+
+Zad 2
+- id_klienta, data_zamowienia
+- id_produktu, data_zamowienia
+
+
+Zad 3
+Id_pomieszczenia -> numer_pomieszczenia, id_budynku, powierzchnia, liczba_okien, liczba_drzwi
+Id_budynku -> ulica, miasto, kod_pocztowy
+Kod_pocztowy -> ulica, miasto
+
+klucze
+- id_pomieszczenia
+- numer_pomieszczenia
